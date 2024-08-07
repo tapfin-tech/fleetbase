@@ -18,7 +18,7 @@
     COPY console/package.json console/pnpm-lock.yaml ./
     
     # Copy over .npmrc if applicable
-    COPY console/.npmr[c] ./
+   #  COPY console/.npmrc ./
     
     # Install global dependencies
     RUN npm install -g ember-cli pnpm 
