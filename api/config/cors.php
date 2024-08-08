@@ -21,7 +21,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => array_filter(['http://localhost:4200', env('CONSOLE_HOST'), Utils::addWwwToUrl(env('CONSOLE_HOST'))]),
+    'allowed_origins' => array_filter(['http://45.129.87.18:4200','*',"https://fleet.tapfin.in", env('CONSOLE_HOST'), Utils::addWwwToUrl(env('https://fleet.tapfin.in'))]),
 
     'allowed_origins_patterns' => [],
 

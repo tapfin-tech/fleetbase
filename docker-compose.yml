@@ -59,13 +59,14 @@ services:
       - console-build:/fleetbase/console
     environment:
       ENVIRONMENT: production
+      CONSOLE_HOST: https://fleet-api.tapfin.in
       DATABASE_URL: "mysql://root@database/fleetbase"
       QUEUE_CONNECTION: redis
       CACHE_DRIVER: redis
       CACHE_PATH: /fleetbase/api/storage/framework/cache
       CACHE_URL: tcp://cache
       REDIS_URL: tcp://cache
-      SESSION_DOMAIN: 45.129.87.18
+      SESSION_DOMAIN: tapfin.in
       BROADCAST_DRIVER: socketcluster
       MAIL_FROM_NAME: Fleetbase
       APP_NAME: Fleetbase
