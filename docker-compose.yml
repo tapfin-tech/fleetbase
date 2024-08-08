@@ -69,6 +69,13 @@ services:
       SESSION_DOMAIN: tapfin.in
       BROADCAST_DRIVER: socketcluster
       MAIL_FROM_NAME: Fleetbase
+      MAIL_MAILER: smtp
+      MAIL_HOST: smtp-mail.outlook.com
+      MAIL_PORT: 587
+      MAIL_USERNAME: sandeep.yadav@tapfin.in
+      MAIL_PASSWORD: sidtap@12#
+      MAIL_ENCRYPTION: tls
+      MAIL_FROM_ADDRESS: sandeep.yadav@tapfin.in
       APP_NAME: Fleetbase
       LOG_CHANNEL: daily
       MODEL_CACHE_ENABLED: 'true'
