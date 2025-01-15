@@ -7,6 +7,8 @@
     <p align="center" dir="auto">
       Modular logistics and supply chain operating system
       <br>
+      This project is tested with BrowserStack.
+      <br>
       <a href="https://docs.fleetbase.io/" rel="nofollow">Documentation</a>
       ·
       <a href="https://console.fleetbase.io" rel="nofollow">Cloud Version</a>
